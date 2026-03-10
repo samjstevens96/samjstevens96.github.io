@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuel Stevens — Marketing Manager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Faculty+Glyphic&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav-header">
+    <nav class="nav container">
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact" class="btn btn-sm">Get in touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <!-- Replace this div with an <img> tag pointing to your headshot -->
+
+        <h1 class="hero-headline">Sam Stevens</h1>
+        <p class="hero-sub">
+          Results-driven marketer with 8+ years of scaling
+          marketing functions in startup and SME environments.
+        </p>
+        <nav class="hero-nav" aria-label="Page sections">
+          <a href="#about" class="hero-nav-btn">About</a>
+          <a href="#skills" class="hero-nav-btn">Skills</a>
+          <a href="#experience" class="hero-nav-btn">Experience</a>
+          <a href="#work" class="hero-nav-btn">Work</a>
+          <a href="#contact" class="hero-nav-btn hero-nav-btn--accent">Get in touch</a>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about section section-alt">
+      <div class="container about-inner">
+        <h1 class="section-heading">About</h1>
+        <p class="about-bio">Sam is a Marketing Manager with <b>over 8 years of experience driving digital growth for startups and established brands alike</b>. Specializing in PPC advertising, landing page production, and attribution analytics, Sam is known for building the systems and roadmaps that turn high-level objectives into measurable results.
+</br></br>What sets Sam apart is a rare blend of strategic thinking and hands-on execution — from managing data-driven campaigns to leading creative projects in <b>video production, product photography, and graphic design</b>.
+</br></br>Outside of work, Sam channels that same maker's spirit into rock climbing, cycling, hiking, and DIY woodworking projects.
+</p>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="skills-section section">
+      <div class="container">
+        <h2 class="section-heading">Skills</h2>
+        <p class="skills-intro">With a career spent on small-to-medium sized teams, Sam has developed a broad, generalist skillset across many areas of marketing. The skills below reflect his areas of proficiency, ranked by comfort level.
+</p>
+
+        <div class="skills-legend">
+          <span class="legend-item"><span class="legend-mark">1</span> Less experience</span>
+          <span class="legend-arrow" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 8" fill="none">
+              <path d="M0 4h22M18 1l4 3-4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="legend-item"><span class="legend-mark">5</span> Extensive experience</span>
+        </div>
+
+        <div class="skills-list-grid">
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Video production</span>
+              <span class="skill-val">5</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Video production: 5 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 100%"></div>
+                <div class="skill-thumb" style="--target-pct: 100%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Graphic design</span>
+              <span class="skill-val">4</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Graphic design: 4 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 75%"></div>
+                <div class="skill-thumb" style="--target-pct: 75%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Photography</span>
+              <span class="skill-val">3</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Photography: 3 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 50%"></div>
+                <div class="skill-thumb" style="--target-pct: 50%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Social media</span>
+              <span class="skill-val">4</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Social media: 4 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 75%"></div>
+                <div class="skill-thumb" style="--target-pct: 75%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Influencer marketing</span>
+              <span class="skill-val">2</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Influencer marketing: 2 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 25%"></div>
+                <div class="skill-thumb" style="--target-pct: 25%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Technical writing</span>
+              <span class="skill-val">5</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Technical writing: 5 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 100%"></div>
+                <div class="skill-thumb" style="--target-pct: 100%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Email marketing</span>
+              <span class="skill-val">5</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Email marketing: 5 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 100%"></div>
+                <div class="skill-thumb" style="--target-pct: 100%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Marketing analytics</span>
+              <span class="skill-val">4</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Marketing analytics: 4 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 75%"></div>
+                <div class="skill-thumb" style="--target-pct: 75%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Marketing automation</span>
+              <span class="skill-val">1</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Marketing automation: 1 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 0%"></div>
+                <div class="skill-thumb" style="--target-pct: 0%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span class="skill-name">Event marketing</span>
+              <span class="skill-val">2</span>
+            </div>
+            <div class="skill-slider-wrap" role="img" aria-label="Event marketing: 2 out of 5">
+              <div class="skill-track">
+                <div class="skill-fill" style="--target-pct: 25%"></div>
+                <div class="skill-thumb" style="--target-pct: 25%"></div>
+              </div>
+              <div class="skill-ticks" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="experience section section-alt">
+      <div class="container">
+        <p class="section-label">Experience</p>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">Aug 2024 – Present</span>
+              <span class="timeline-company">Simply Bread Co., Santa Ana, CA</span>
+            </div>
+            <h3 class="timeline-role">Marketing Manager</h3>
+            <ul class="timeline-bullets">
+              <li>Built the marketing department from the ground up — team, systems, channels, and strategy.</li>
+              <li>Oversaw marketing through a ~40% company revenue growth year in 2025.</li>
+              <li>Executed a cross-platform Black Friday campaign generating $800K+ in revenue; paid channels drove 40% of total sales.</li>
+              <li>Represented the brand at the world's largest baking expo, managing booth design, logistics, and execution on a limited budget.</li>
+              <li>Established full-funnel analytics across all channels, enabling clear attribution and performance visibility.</li>
+              <li>Built and maintained influencer partnerships that sustained brand credibility and market share.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">Nov 2021 – Aug 2024</span>
+              <span class="timeline-company">Synology America Corp., Bellevue, WA</span>
+            </div>
+            <h3 class="timeline-role">Digital Marketing Specialist</h3>
+            <ul class="timeline-bullets">
+              <li>Managed digital marketing for the US subsidiary of a global tech brand — Google Search, PPC display, social, email, and website content.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jun 2019 – Nov 2021</span>
+              <span class="timeline-company">Catalyst Health Group, Plano, TX</span>
+            </div>
+            <h3 class="timeline-role">Digital Media Specialist</h3>
+            <ul class="timeline-bullets">
+              <li>Produced video, podcast, print, and digital content for internal and external marketing campaigns.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">May 2018 – Jul 2019</span>
+              <span class="timeline-company">Marcus &amp; Millichap, Dallas, TX</span>
+            </div>
+            <h3 class="timeline-role">Marketing Coordinator</h3>
+            <ul class="timeline-bullets">
+              <li>Managed production of commercial real estate listings, proposals, and offering memorandums. Maintained website, social media, and email marketing database.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="education">
+          <p class="section-label">Education</p>
+          <div class="edu-item">
+            <img src="Creatives/texas-a-m-university-commerce-300x300.webp" alt="Texas A&M University – Commerce" class="edu-logo" />
+            <div class="edu-content">
+              <h3 class="edu-degree">B.S. · Texas A&amp;M University – Commerce</h3>
+              <p class="edu-details">
+                Graduated Cum Laude &middot; 3.65 GPA &middot; 3-year completion &middot; Regent Scholar Program
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== WORK ===== -->
+    <section id="work" class="work-section section">
+      <div class="container">
+        <h2 class="section-heading">Work</h2>
+        <p class="section-intro">A selection of campaigns, projects, and deliverables from across Sam's career. More specific information regarding campaign planning, execution, and result attribution can be provided upon request.</p>
+
+        <div class="work-list">
+
+          <div class="work-item">
+            <button class="work-question" aria-expanded="false">
+              <span class="work-header">
+                <span class="work-question-title">Animated SaaS Explainer</span>
+
+              </span>
+              <svg class="work-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="work-answer" hidden>
+              <div class="work-content">
+                <div class="work-media">
+                  <iframe src="https://www.youtube-nocookie.com/embed/Y5JsXNIlHDc" title="Animated SaaS Explainer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="work-body">
+                  <h3 class="work-title">Simply Bread App - Explainer video</h3>
+                  <p class="work-desc">A short-form video explaining core app functionality — conceived, written, and produced from the ground up.</p>
+
+                  <ul class="work-bullets">
+                    <li><b>Executive Producer:</b> Led the full production lifecycle, from initial concept through final delivery.</li>
+                    <li><b>Writer:</b> Authored and edited the video script.</li>
+                    <li><b>Campaign Asset:</b> Became the centerpiece of multiple downstream marketing campaigns.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-item">
+            <button class="work-question" aria-expanded="false">
+              <span class="work-header">
+                <span class="work-question-title">Tradeshow booth production</span>
+
+              </span>
+              <svg class="work-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="work-answer" hidden>
+              <div class="work-content">
+                <div class="work-media">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Lox_3rAZDyA?si=0KN7RfyGPCBxwbT1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="work-body">
+                  <h3 class="work-title">Simply Bread booth at IBIE</h3>
+                  <p class="work-desc">Tasked with representing our brand at the world's largest baking expo, we didn't just show up — we made a statement, establishing our brand in a new market and taking home an award in the process.</p>
+
+                  <ul class="work-bullets">
+                    <li><b>Fully-Functional Bakery:</b> Executed a working bakery within a temporary convention center space — a significant operational feat.</li>
+                    <li><b>Efficient Execution:</b> Planned, built, transported, and operated the booth for a full week for approximately $85K — a fraction of what many exhibitors spend on furniture alone.</li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-item">
+            <button class="work-question" aria-expanded="false">
+              <span class="work-header">
+                <span class="work-question-title">In-studio video production</span>
+
+              </span>
+              <svg class="work-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="work-answer" hidden>
+              <div class="work-content">
+                <div class="work-media">
+                  <iframe src="https://www.youtube-nocookie.com/embed/pKv8XHkP51g" title="In-studio video production" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="work-body">
+                  <h3 class="work-title">Simply Bread recipe video</h3>
+                  <p class="work-desc">One of several videos produced for Simply Bread in 2025. Though the series was ultimately discontinued due to budget constraints, this work stands as a strong example of high-production-value content marketing.</p>
+
+                  <ul class="work-bullets">
+                    <li><b>High-Quality A/V:</b> Managed lighting and set design internally, reinforcing brand identity throughout.</li>
+                    <li><b>Minimal Budget:</b> Kept costs down by handling most work in-house, supplemented by contract videography and remote editing.</li>
+                    <li><b>Influencer Collaborations:</b> Partnered with influencers reaching hundreds of thousands of followers to drive engagement.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-item">
+            <button class="work-question" aria-expanded="false">
+              <span class="work-header">
+                <span class="work-question-title">Live-action patient interview</span>
+              </span>
+              <svg class="work-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="work-answer" hidden>
+              <div class="work-content">
+                <div class="work-media">
+                  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/638042800?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Thriving with Catalyst - Trusted and timely answers when it matters most"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <div class="work-body">
+                  <h3 class="work-title">Patient interview with Catalyst Health Network</h3>
+                  <p class="work-desc">Part of an initiative at Catalyst Health Network to capture authentic patient stories. Every aspect of this video — from setup to final cut — was handled solo.</p>
+
+                  <ul class="work-bullets">
+                    <li><b>Videography:</b> Operated multiple cameras, lighting, and audio equipment independently.</li>
+                    <li><b>Interview:</b> Conducted the patient interview in addition to managing all technical elements.</li>
+                    <li><b>Post-Production:</b> Edited the footage, created custom graphics, and published the final video.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-item">
+            <button class="work-question" aria-expanded="false">
+              <span class="work-header">
+                <span class="work-question-title">Animated video: Patient story</span>
+              </span>
+              <svg class="work-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="work-answer" hidden>
+              <div class="work-content">
+                <div class="work-media">
+                  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/640519756?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Personalized support through the entire health journey (Short)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <div class="work-body">
+                  <h3 class="work-title">Animated Patient Story</h3>
+                  <p class="work-desc">Another installment in the patient story series, with a focus on animation. Served as the primary writer and producer throughout.</p>
+
+                  <ul class="work-bullets">
+                    <li><b>Writing & Storyboarding:</b> Reviewed a broad pool of patient stories, selected the strongest candidates, wrote scripts, and developed animation briefs.</li>
+                    <li><b>Creative Collaboration:</b> Coordinated with the internal design team and external voice talent to bring each story to life.</li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact section">
+      <div class="container contact-inner">
+        <p class="section-label">Contact</p>
+
+        <form class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" required />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me what you're working on…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-links">
+          <a href="mailto:samjstevens96@gmail.com" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            samjstevens96@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/samuelstevens96/" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            linkedin.com/in/samuelstevens96
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Samuel Stevens</p>
+      <p class="footer-note">Built with HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
